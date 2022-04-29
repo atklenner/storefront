@@ -25,6 +25,9 @@ export default function Header() {
                 <Link to="/signin" className="button is-light">
                   Log in
                 </Link>
+                <Link to="/cart" className="button is-primary">
+                  <strong>Cart</strong>
+                </Link>
               </div>
             </div>
           </div>

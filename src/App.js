@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./pages/About";
+import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/store" element={<Store />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </BrowserRouter>
