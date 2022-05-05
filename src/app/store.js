@@ -6,7 +6,7 @@ import productsReducer from "../features/products/productsSlice";
 export default configureStore({
   reducer: {
     cart: cartReducer,
-    products: productsReducer,
-    filter: filterReducer,
+    // products: productsReducer,
+    // filter: filterReducer,
   },
 });

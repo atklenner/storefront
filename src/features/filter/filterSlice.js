@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const filterSlice = createSlice({
-  name: "cart",
+  name: "filter",
   initialState: {
     filtered_products: [],
     all_products: [],
